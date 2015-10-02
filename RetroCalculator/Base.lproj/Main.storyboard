@@ -42,6 +42,35 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="e5m-gW-OZO">
+                                <rect key="frame" x="90" y="160" width="210" height="62"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ve-ID-eDy">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Yet-Ka-xOe"/>
+                                            <constraint firstAttribute="height" constant="62" id="tLC-SL-SPN"/>
+                                        </constraints>
+                                        <state key="normal" image="7"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NK-gb-aUg">
+                                        <rect key="frame" x="75" y="0.0" width="60" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Ybf-yd-SnU"/>
+                                            <constraint firstAttribute="height" constant="62" id="cff-ns-skW"/>
+                                        </constraints>
+                                        <state key="normal" image="8"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eak-vv-sXV">
+                                        <rect key="frame" x="150" y="0.0" width="60" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="4i1-J2-fUk"/>
+                                            <constraint firstAttribute="height" constant="62" id="kCJ-uN-VJa"/>
+                                        </constraints>
+                                        <state key="normal" image="9"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -57,10 +86,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244.5" y="305.5"/>
+            <point key="canvasLocation" x="304.5" y="283.5"/>
         </scene>
     </scenes>
     <resources>
+        <image name="7" width="111" height="114"/>
+        <image name="8" width="111" height="114"/>
+        <image name="9" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
         <image name="counter" width="516" height="133"/>
         <image name="space-bg" width="988" height="946"/>
